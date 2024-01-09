@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.roderiklight.act1.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_moduleFragment"
+            app:destination="@id/moduleFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_extraFragment"
+            app:destination="@id/extraFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/moduleFragment"
+        android:name="com.roderiklight.act1.ModuleFragment"
+        android:label="fragment_module"
+        tools:layout="@layout/fragment_module" />
+    <fragment
+        android:id="@+id/extraFragment"
+        android:name="com.roderiklight.act1.ExtraFragment"
+        android:label="fragment_extra"
+        tools:layout="@layout/fragment_extra" />
+</navigation>

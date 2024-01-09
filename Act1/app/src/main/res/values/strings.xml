@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Act1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="whyisthisamust">WHYISTHISAMUST</string>
+    <string name="aplicaciones_de_iot">Aplicaciones de IoT</string>
+    <string name="name">Nombre</string>
+    <string name="joel_rodrigo">Joel Rodrigo</string>
+    <string name="salcedo_cheno">Salcedo Cheno</string>
+    <string name="practicas">Practicas</string>
+    <string name="_0">0</string>
+</resources>

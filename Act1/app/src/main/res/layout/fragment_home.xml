@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white"
+    android:layout_margin="16dp">
+
+    <ImageView
+        android:layout_margin="16dp"
+        android:id="@+id/die"
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/die"
+        android:contentDescription="@string/whyisthisamust" />
+
+    <TextView
+        android:layout_margin="16dp"
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/die"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/aplicaciones_de_iot"
+        style="@style/TitleGuy"
+        />
+    <TextView
+        android:layout_margin="16dp"
+        android:id="@+id/name"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/surname"
+        android:text="@string/joel_rodrigo"
+        style="@style/NameGuy"/>
+    <TextView
+        android:layout_margin="16dp"
+        android:id="@+id/surname"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintStart_toEndOf="@+id/name"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/salcedo_cheno"
+        style="@style/SurnameGuy"/>
+
+    <TextView
+        android:id="@+id/Practicas"
+        android:layout_marginBottom="150sp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Num"
+        android:text="@string/practicas"
+        style="@style/PracticeGuy"/>
+
+    <TextView
+        android:id="@+id/Num"
+        android:layout_marginBottom="150sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Practicas"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/_0"
+        style="@style/PracticeGuy"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
