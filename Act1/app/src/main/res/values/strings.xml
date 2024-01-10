@@ -9,4 +9,15 @@
     <string name="salcedo_cheno">Salcedo Cheno</string>
     <string name="practicas">Practicas</string>
     <string name="_0">0</string>
+    <string name="hc_o5">HC-O5</string>
+    <string name="devices">Devices</string>
+    <string name="status">Status…</string>
+
+    <string-array name="spinner_options">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
 </resources>

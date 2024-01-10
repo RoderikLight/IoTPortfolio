@@ -39,7 +39,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/surname"
         android:text="@string/joel_rodrigo"
-        style="@style/NameGuy"/>
+        style="@style/SubtitleGuy"/>
     <TextView
         android:layout_margin="16dp"
         android:id="@+id/surname"
@@ -49,7 +49,7 @@
         app:layout_constraintStart_toEndOf="@+id/name"
         app:layout_constraintEnd_toEndOf="parent"
         android:text="@string/salcedo_cheno"
-        style="@style/SurnameGuy"/>
+        style="@style/SubtitleGuy"/>
 
     <TextView
         android:id="@+id/Practicas"

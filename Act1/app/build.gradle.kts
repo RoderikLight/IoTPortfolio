@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.roderiklight.act1"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.roderiklight.act1"
         minSdk = 28
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 

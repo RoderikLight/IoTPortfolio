@@ -5,13 +5,8 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="NameGuy" parent="Base.Theme.Act1">
+    <style name="SubtitleGuy" parent="Base.Theme.Act1">
         <item name="android:textColor">@color/cyan</item>
-        <item name="android:textSize">20sp</item>
-    </style>
-
-    <style name="SurnameGuy" parent="Base.Theme.Act1">
-        <item name="android:textColor">@color/green</item>
         <item name="android:textSize">20sp</item>
     </style>
 
